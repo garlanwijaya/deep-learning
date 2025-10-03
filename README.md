@@ -44,8 +44,8 @@ Grafik di bawah ini memvisualisasikan perbandingan performa akurasi dan loss dar
 
 ## 4. Analisis Singkat
 
-[cite_start]Berdasarkan hasil eksperimen yang divisualisasikan pada grafik, terlihat jelas bahwa **penambahan *residual connection* pada arsitektur ResNet-34 memberikan peningkatan performa yang signifikan**. [cite: 34, 88]
+Berdasarkan hasil eksperimen yang divisualisasikan pada grafik, terlihat jelas bahwa **penambahan *residual connection* pada arsitektur ResNet-34 memberikan peningkatan performa yang signifikan**.
 
 Model **Plain-34** menunjukkan gejala **degradasi**. Meskipun *training accuracy*-nya terus meningkat, *validation accuracy*-nya cenderung stagnan di angka **[lihat angka stagnasi di grafik]%** setelah epoch ke-**[lihat epoch ke berapa]**. Hal ini membuktikan bahwa model kesulitan untuk belajar lebih dalam dan menggeneralisasi pengetahuannya ke data yang belum pernah dilihat.
 
-Sebaliknya, model **ResNet-34** berhasil mengatasi masalah ini. Kurva *validation accuracy*-nya menunjukkan tren peningkatan yang lebih konsisten dan mencapai puncak yang lebih tinggi. *Residual connection* memungkinkan gradien untuk mengalir lebih mudah ke lapisan-lapisan awal, sehingga model dapat terus belajar secara efektif tanpa mengorbankan performa. [cite_start]Peningkatan performa ini membuktikan efektivitas arsitektur ResNet dalam melatih jaringan yang dalam. [cite: 34]
+Sebaliknya, model **ResNet-34** berhasil mengatasi masalah ini. Kurva *validation accuracy*-nya menunjukkan tren peningkatan yang lebih konsisten dan mencapai puncak yang lebih tinggi. *Residual connection* memungkinkan gradien untuk mengalir lebih mudah ke lapisan-lapisan awal, sehingga model dapat terus belajar secara efektif tanpa mengorbankan performa. Peningkatan performa ini membuktikan efektivitas arsitektur ResNet dalam melatih jaringan yang dalam.
