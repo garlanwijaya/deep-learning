@@ -37,8 +37,8 @@ Tabel berikut merangkum metrik performa kedua model pada **epoch terakhir** dari
 ## 3. Kurva Pelatihan
 
 Grafik di bawah ini memvisualisasikan perbandingan performa akurasi dan loss dari kedua model selama proses pelatihan.
+<img width="1489" height="590" alt="grafik" src="https://github.com/user-attachments/assets/e8113072-a70e-48ac-946b-1ffa6805f08a" />
 
-![Grafik Perbandingan Akurasi dan Loss](perbandingan_plain_vs_resnet.png)
 
 ---
 
